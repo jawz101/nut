@@ -394,6 +394,7 @@ snmp_ups_SOURCES = snmp-ups.c snmp-ups-helpers.c \
  mge-mib.c \
  netvision-mib.c \
  raritan-pdu-mib.c raritan-px2-mib.c \
+ vertiv-psi5-mib.c \
  xppc-mib.c
 snmp_ups_CFLAGS = $(AM_CFLAGS)
 snmp_ups_CFLAGS += $(LIBNETSNMP_CFLAGS)
